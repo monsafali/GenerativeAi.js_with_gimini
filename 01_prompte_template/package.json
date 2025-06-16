@@ -1,0 +1,23 @@
+{
+  "name": "01_hello-langchainjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.58",
+    "@langchain/google-genai": "^0.2.12",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.28"
+  },
+  "overrides": {
+    "@langchain/core": "^0.3.58"
+  }
+}
